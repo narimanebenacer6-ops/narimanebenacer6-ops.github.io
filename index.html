@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Narimane Benacer | Data Scientist & Analyste</title>
+<title>Narimane Benacer | Data Analyst / Data Scientist</title>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
   :root {
@@ -204,6 +204,8 @@
     .about-grid { grid-template-columns: 1fr; }
     .nav-links { display: none; }
   }
+  .stat-num { font-size: 1.8rem; }
+  #contact .hero-btns { animation: none; }
 </style>
 </head>
 <body>
@@ -213,9 +215,9 @@
   <div class="nav-logo">Narimane <span>Benacer</span></div>
   <ul class="nav-links">
     <li><a href="#about">Profil</a></li>
-    <li><a href="#skills">Compétences</a></li>
+    <li><a href="#experience">Parcours</a></li>
     <li><a href="#projects">Projets</a></li>
-    <li><a href="#experience">Expérience</a></li>
+    <li><a href="#skills">Compétences</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
 </nav>
@@ -224,20 +226,21 @@
 <section class="hero">
   <div class="grid-bg"></div>
   <div class="hero-content">
-    <div class="hero-tag">✦ Disponible en CDI — Septembre 2026</div>
+    <div class="hero-tag">✦ Disponible immédiatement · CDI · Mobilité partout en France</div>
     <h1 class="hero-name">Narimane<br><span>Benacer</span></h1>
-    <p class="hero-title">Data Scientist &nbsp;║&nbsp; Data Analyst</p>
-    <p class="hero-desc">Data Scientist &amp; Data Analyst formée à l'Université de Lorraine × École des Mines de Nancy. Je joins rigueur scientifique et double expertise terrain pour extraire de la valeur des données et produire des analyses à fort impact.</p>
+    <p class="hero-title">Data Analyst &nbsp;║&nbsp; Data Scientist</p>
+    <p class="hero-desc">Près de 4 ans d'expérience en analyse et fiabilisation de données, dont 3 ans et demi en CDI sur Oracle et PL/SQL. Diplômée du Master Ingénierie Mathématique pour la Science des Données (Université de Lorraine, École des Mines de Nancy).</p>
     <div class="hero-chips">
       <span class="chip">Python</span>
-      <span class="chip">R</span>
-      <span class="chip">Power BI</span>
-      <span class="chip">Machine Learning</span>
       <span class="chip">SQL</span>
-      <span class="chip">Deep Learning</span>
+      <span class="chip">PL/SQL</span>
+      <span class="chip">Power BI</span>
+      <span class="chip">R</span>
+      <span class="chip">Machine Learning</span>
     </div>
     <div class="hero-btns">
       <a href="#projects" class="btn-primary">Voir mes projets</a>
+      <a href="CV_Narimane_Benacer_Data_Analyst.pdf" class="btn-outline" download>Télécharger mon CV</a>
       <a href="#contact" class="btn-outline">Me contacter</a>
     </div>
   </div>
@@ -252,26 +255,27 @@
   <div class="container">
     <div class="section-header reveal">
       <div class="section-tag">À propos</div>
-      <h2 class="section-title">Rigueur scientifique &<br>expertise terrain</h2>
+      <h2 class="section-title">Des données fiables<br>pour mieux décider</h2>
     </div>
     <div class="about-grid">
       <div class="about-text reveal">
-        <p>Ingénieure en <strong>Data Science & Mathématiques Appliquées</strong> (Master IMSD – Université de Lorraine × École des Mines de Nancy), je joins rigueur scientifique et double expertise terrain.</p>
-        <p>Actuellement en stage au <strong>Cerema – Région Grand Est</strong>, je mène une mission complète de Data Analyst : contrôle qualité de données massives, modélisation statistique des indicateurs d'état du réseau routier, détection d'anomalies patrimoniales et production de rapports opérationnels à destination de la direction.</p>
-        <p>Forte d'une <strong>double expérience terrain</strong> — en France au Cerema et en Algérie à l'Entreprise Portuaire de Bejaia — je sais m'adapter à des contextes variés et produire des livrables professionnels clairs pour les décideurs.</p>
+        <p>Je suis <strong>Data Analyst / Data Scientist</strong>, avec près de 4 ans d'expérience entre la France et l'Algérie.</p>
+        <p>Pendant <strong>3 ans et demi en CDI à l'Entreprise Portuaire de Béjaïa</strong>, j'ai conçu des bases de données Oracle, développé des procédures PL/SQL et mis en place une plateforme centralisée sous Oracle APEX.</p>
+        <p>Au <strong>Cerema (Agence de Nancy)</strong>, j'ai fiabilisé l'indicateur de qualité du réseau routier de la DIR Est et de la Région Grand Est : reconstruction des données, contrôle qualité et validation statistique.</p>
+        <p>Je cherche aujourd'hui un <strong>CDI de Data Analyst ou Data Scientist</strong>, partout en France.</p>
       </div>
       <div class="about-stats reveal">
         <div class="stat-card">
+          <div class="stat-num">~4 ans</div>
+          <div class="stat-label">d'expérience</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">3,5 ans</div>
+          <div class="stat-label">en CDI</div>
+        </div>
+        <div class="stat-card">
           <div class="stat-num">2</div>
-          <div class="stat-label">Expériences terrain</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-num">4+</div>
-          <div class="stat-label">Projets Data</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-num">6+</div>
-          <div class="stat-label">Modèles ML maîtrisés</div>
+          <div class="stat-label">Masters en maths appliquées</div>
         </div>
         <div class="stat-card">
           <div class="stat-num">3</div>
@@ -282,73 +286,93 @@
   </div>
 </section>
 
-<!-- SKILLS -->
-<section id="skills">
+<!-- EXPERIENCE -->
+<section id="experience">
   <div class="container">
     <div class="section-header reveal">
-      <div class="section-tag">Compétences</div>
-      <h2 class="section-title">Stack technique</h2>
+      <div class="section-tag">Parcours</div>
+      <h2 class="section-title">Expérience &amp; Formation</h2>
     </div>
-    <div class="skills-grid">
-      <div class="skill-card reveal">
-        <div class="skill-icon">🐍</div>
-        <div class="skill-cat">Langages</div>
-        <div class="skill-tags">
-          <span class="skill-tag">Python</span>
-          <span class="skill-tag">R</span>
-          <span class="skill-tag">SQL</span>
+    <div class="timeline">
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <div class="timeline-meta">
+            <div class="timeline-title">Data Analyst · Stage de fin d'études</div>
+            <div class="timeline-date">Avr. 2026 - Sept. 2026</div>
+          </div>
+          <div class="timeline-org">Cerema, Agence de Nancy · Secteur public</div>
+          <ul class="timeline-list">
+            <li>Fiabilisation du calcul de l'indicateur de qualité du réseau routier (IQRN) pour la DIR Est et la Région Grand Est</li>
+            <li>Reconstruction des données 2018-2021 sur 8 axes routiers et 6 227 segments, avec traçabilité des corrections</li>
+            <li>Production de 8 bases annuelles fiabilisées (2018-2025) et validation d'un arbre de décision statistique</li>
+            <li>Détection d'anomalies, seuils d'alerte et rapport qualité standard (Python, Power BI, QGIS)</li>
+          </ul>
         </div>
       </div>
-      <div class="skill-card reveal">
-        <div class="skill-icon">🤖</div>
-        <div class="skill-cat">Machine Learning</div>
-        <div class="skill-tags">
-          <span class="skill-tag">Random Forest</span>
-          <span class="skill-tag">LASSO</span>
-          <span class="skill-tag">Elastic Net</span>
-          <span class="skill-tag">PCA · PLS</span>
-          <span class="skill-tag">CNN · LSTM</span>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <div class="timeline-meta">
+            <div class="timeline-title">Master Ingénierie Mathématique pour la Science des Données</div>
+            <div class="timeline-date">2024 - 2026</div>
+          </div>
+          <div class="timeline-org">Université de Lorraine, en partenariat avec l'École des Mines de Nancy</div>
+          <ul class="timeline-list">
+            <li>Modélisation statistique, machine learning, deep learning et science des données</li>
+            <li>Projets : prédiction de réadmissions hospitalières, descriptions d'images par deep learning</li>
+          </ul>
         </div>
       </div>
-      <div class="skill-card reveal">
-        <div class="skill-icon">📊</div>
-        <div class="skill-cat">Data Visualisation</div>
-        <div class="skill-tags">
-          <span class="skill-tag">Power BI</span>
-          <span class="skill-tag">Tableau</span>
-          <span class="skill-tag">Kibana</span>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <div class="timeline-meta">
+            <div class="timeline-title">Analyste de données · Oracle / PL/SQL (CDI)</div>
+            <div class="timeline-date">Janv. 2021 - Juin 2024</div>
+          </div>
+          <div class="timeline-org">Entreprise Portuaire de Béjaïa (EPB), Algérie</div>
+          <ul class="timeline-list">
+            <li>Conception des modèles de données (MCD/MLD) des systèmes de gestion des inspections</li>
+            <li>Développement de procédures stockées PL/SQL pour accélérer les traitements et les requêtes</li>
+            <li>Plateforme centralisée sous Oracle APEX, avec sécurité au niveau des lignes et contrôle des accès</li>
+            <li>Gain d'environ 30 % sur l'efficacité de la prise de décision et de 20 % sur le suivi des projets</li>
+          </ul>
         </div>
       </div>
-      <div class="skill-card reveal">
-        <div class="skill-icon">📐</div>
-        <div class="skill-cat">Statistiques</div>
-        <div class="skill-tags">
-          <span class="skill-tag">Modélisation</span>
-          <span class="skill-tag">Détection anomalies</span>
-          <span class="skill-tag">Tests statistiques</span>
-          <span class="skill-tag">Weibull</span>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <div class="timeline-meta">
+            <div class="timeline-title">Analyste · Stage de fin d'études</div>
+            <div class="timeline-date">Janv. 2019 - Juin 2019</div>
+          </div>
+          <div class="timeline-org">Entreprise Portuaire de Béjaïa (EPB), Algérie</div>
+          <ul class="timeline-list">
+            <li>Analyse des retards de traitement des navires et analyse ABC/Pareto des équipements critiques</li>
+            <li>Modélisation de la fiabilité (Weibull), indicateurs MTTR et MDT, simulation par files d'attente</li>
+          </ul>
         </div>
       </div>
-      <div class="skill-card reveal">
-        <div class="skill-icon">🐼</div>
-        <div class="skill-cat">Librairies Python</div>
-        <div class="skill-tags">
-          <span class="skill-tag">Pandas</span>
-          <span class="skill-tag">NumPy</span>
-          <span class="skill-tag">Scikit-learn</span>
-          <span class="skill-tag">OpenCV</span>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <div class="timeline-meta">
+            <div class="timeline-title">Master Modélisation, Optimisation et Aide à la Décision</div>
+            <div class="timeline-date">2017 - 2019</div>
+          </div>
+          <div class="timeline-org">Université Abderrahmane Mira, Béjaïa, Algérie</div>
+          <ul class="timeline-list">
+            <li>Mathématiques appliquées, probabilités, statistiques et optimisation</li>
+          </ul>
         </div>
       </div>
-      <div class="skill-card reveal">
-        <div class="skill-icon">🛠️</div>
-        <div class="skill-cat">Outils</div>
-        <div class="skill-tags">
-          <span class="skill-tag">Excel avancé</span>
-          <span class="skill-tag">Git</span>
-          <span class="skill-tag">Jupyter</span>
-          <span class="skill-tag">Word · PDF</span>
-        </div>
-      </div>
+
     </div>
   </div>
 </section>
@@ -367,17 +391,36 @@
           <div class="project-icon">🛣️</div>
           <div>
             <div class="project-type">Stage · Cerema</div>
-            <div class="project-name">Analyse du réseau routier national — Région Grand Est</div>
+            <div class="project-name">Qualité du réseau routier, Région Grand Est</div>
           </div>
         </div>
         <div class="project-body">
-          <p class="project-desc">Audit qualité de données massives, modélisation statistique des indicateurs d'état, détection d'anomalies patrimoniales et reporting opérationnel sur 4 campagnes consécutives.</p>
+          <p class="project-desc">Reconstruction et contrôle qualité de 8 années de données routières (6 227 segments). Validation d'un arbre de décision statistique avec 99,99 à 100 % de concordance sur 4 campagnes.</p>
           <div class="project-stack">
             <span class="stack-tag">Python</span>
             <span class="stack-tag">Pandas</span>
-            <span class="stack-tag">R</span>
-            <span class="stack-tag">Excel</span>
             <span class="stack-tag">Power BI</span>
+            <span class="stack-tag">QGIS</span>
+            <span class="stack-tag">Excel</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-header">
+          <div class="project-icon">🗄️</div>
+          <div>
+            <div class="project-type">CDI · Entreprise Portuaire</div>
+            <div class="project-name">Plateforme de gestion des inspections</div>
+          </div>
+        </div>
+        <div class="project-body">
+          <p class="project-desc">Conception de la base de données, procédures stockées PL/SQL et application Oracle APEX centralisée, avec sécurité au niveau des lignes. Environ 30 % de gain sur l'efficacité de la prise de décision.</p>
+          <div class="project-stack">
+            <span class="stack-tag">Oracle</span>
+            <span class="stack-tag">PL/SQL</span>
+            <span class="stack-tag">Oracle APEX</span>
+            <span class="stack-tag">MCD/MLD</span>
           </div>
         </div>
       </div>
@@ -386,18 +429,18 @@
         <div class="project-header">
           <div class="project-icon">🏥</div>
           <div>
-            <div class="project-type">Master IMSD · ML</div>
+            <div class="project-type">Master · Machine Learning</div>
             <div class="project-name">Prédiction de réadmissions hospitalières</div>
           </div>
         </div>
         <div class="project-body">
-          <p class="project-desc">Comparaison de 6 modèles ML pour prédire la réadmission de patients diabétiques. Identification des facteurs clés via Random Forest et évaluation par matrices de confusion.</p>
+          <p class="project-desc">Comparaison de 6 modèles pour prédire la réadmission de 101 766 patients diabétiques. Identification des facteurs clés avec Random Forest et évaluation par matrices de confusion.</p>
           <div class="project-stack">
             <span class="stack-tag">R</span>
             <span class="stack-tag">Random Forest</span>
             <span class="stack-tag">LASSO</span>
             <span class="stack-tag">Elastic Net</span>
-            <span class="stack-tag">PCA</span>
+            <span class="stack-tag">PCA · PLS</span>
           </div>
         </div>
       </div>
@@ -406,12 +449,12 @@
         <div class="project-header">
           <div class="project-icon">🖼️</div>
           <div>
-            <div class="project-type">Master IMSD · Deep Learning</div>
-            <div class="project-name">Génération automatique de descriptions d'images</div>
+            <div class="project-type">Master · Deep Learning</div>
+            <div class="project-name">Descriptions automatiques d'images</div>
           </div>
         </div>
         <div class="project-body">
-          <p class="project-desc">Module deep learning combinant CNN (extraction de features visuelles) et LSTM/Transformer (génération de texte). Évaluation des performances via BLEU, METEOR et CIDEr.</p>
+          <p class="project-desc">Extraction des caractéristiques visuelles par CNN et génération de texte par LSTM et Transformer. Évaluation avec les scores BLEU, METEOR et CIDEr.</p>
           <div class="project-stack">
             <span class="stack-tag">Python</span>
             <span class="stack-tag">CNN</span>
@@ -427,16 +470,16 @@
           <div class="project-icon">⚓</div>
           <div>
             <div class="project-type">Stage · Entreprise Portuaire</div>
-            <div class="project-name">Analyse de fiabilité industrielle — Port de Bejaia</div>
+            <div class="project-name">Fiabilité des équipements portuaires</div>
           </div>
         </div>
         <div class="project-body">
-          <p class="project-desc">Modélisation statistique de la fiabilité (lois de Weibull), calcul des indicateurs MTTR/MUT/MDT et simulation des temps de traitement des navires via files d'attente.</p>
+          <p class="project-desc">Modélisation de la fiabilité (lois de Weibull et exponentielle), indicateurs de disponibilité MTTR et MDT, et simulation des temps de traitement des navires par files d'attente.</p>
           <div class="project-stack">
-            <span class="stack-tag">R</span>
-            <span class="stack-tag">Excel</span>
-            <span class="stack-tag">Tableau</span>
+            <span class="stack-tag">Excel avancé</span>
             <span class="stack-tag">Weibull</span>
+            <span class="stack-tag">Files d'attente</span>
+            <span class="stack-tag">Pareto</span>
           </div>
         </div>
       </div>
@@ -445,77 +488,75 @@
   </div>
 </section>
 
-<!-- EXPERIENCE -->
-<section id="experience">
+<!-- SKILLS -->
+<section id="skills">
   <div class="container">
     <div class="section-header reveal">
-      <div class="section-tag">Parcours</div>
-      <h2 class="section-title">Formation & Expérience</h2>
+      <div class="section-tag">Compétences</div>
+      <h2 class="section-title">Stack technique</h2>
     </div>
-    <div class="timeline">
-
-      <div class="timeline-item reveal">
-        <div class="timeline-dot"></div>
-        <div class="timeline-card">
-          <div class="timeline-meta">
-            <div class="timeline-title">Master IMSD – Ingénierie Mathématique pour la Science des Données</div>
-            <div class="timeline-date">2024 – En cours</div>
-          </div>
-          <div class="timeline-org">Université de Lorraine × École des Mines de Nancy – France</div>
-          <ul class="timeline-list">
-            <li>Spécialisation en modélisation statistique, machine learning et science des données</li>
-            <li>Programme co-accrédité par l'École des Mines de Nancy — formation d'excellence à forte dimension mathématique et informatique</li>
-            <li>Projets : prédiction ML, deep learning CNN/LSTM, analyse de données terrain</li>
-          </ul>
+    <div class="skills-grid">
+      <div class="skill-card reveal">
+        <div class="skill-icon">💻</div>
+        <div class="skill-cat">Langages</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">SQL</span>
+          <span class="skill-tag">PL/SQL</span>
+          <span class="skill-tag">R</span>
         </div>
       </div>
-
-      <div class="timeline-item reveal">
-        <div class="timeline-dot"></div>
-        <div class="timeline-card">
-          <div class="timeline-meta">
-            <div class="timeline-title">Data Analyst – Stage de fin d'études</div>
-            <div class="timeline-date">Avr. – Sept. 2026</div>
-          </div>
-          <div class="timeline-org">Cerema – Agence de Nancy | Secteur public · Région Grand Est</div>
-          <ul class="timeline-list">
-            <li>Contrôle qualité et traitement de données massives (Python · Pandas)</li>
-            <li>Modélisation statistique et détection d'anomalies patrimoniales</li>
-            <li>Reporting et recommandations opérationnelles</li>
-          </ul>
+      <div class="skill-card reveal">
+        <div class="skill-icon">🗄️</div>
+        <div class="skill-cat">Bases de données</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Oracle</span>
+          <span class="skill-tag">Oracle APEX</span>
+          <span class="skill-tag">MCD / MLD</span>
+          <span class="skill-tag">Procédures stockées</span>
         </div>
       </div>
-
-      <div class="timeline-item reveal">
-        <div class="timeline-dot"></div>
-        <div class="timeline-card">
-          <div class="timeline-meta">
-            <div class="timeline-title">Data Analyst – Stage fin d'études</div>
-            <div class="timeline-date">Jan. – Juin 2018</div>
-          </div>
-          <div class="timeline-org">Entreprise Portuaire de Bejaia – Algérie</div>
-          <ul class="timeline-list">
-            <li>Modélisation statistique de la fiabilité (Weibull)</li>
-            <li>Calcul MTTR, MUT, MDT · Simulation files d'attente</li>
-          </ul>
+      <div class="skill-card reveal">
+        <div class="skill-icon">📊</div>
+        <div class="skill-cat">Visualisation &amp; BI</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Power BI</span>
+          <span class="skill-tag">Excel avancé</span>
+          <span class="skill-tag">QGIS</span>
+          <span class="skill-tag">Tableaux de bord</span>
         </div>
       </div>
-
-      <div class="timeline-item reveal">
-        <div class="timeline-dot"></div>
-        <div class="timeline-card">
-          <div class="timeline-meta">
-            <div class="timeline-title">Master Mathématiques Financières</div>
-            <div class="timeline-date">2018 – 2020</div>
-          </div>
-          <div class="timeline-org">Université Abderrahmane Mira – Bejaia, Algérie</div>
-          <ul class="timeline-list">
-            <li>Formation approfondie en mathématiques appliquées, probabilités et statistiques financières</li>
-            <li>Bases solides en modélisation quantitative et analyse de risques</li>
-          </ul>
+      <div class="skill-card reveal">
+        <div class="skill-icon">📐</div>
+        <div class="skill-cat">Statistiques &amp; qualité</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Modélisation statistique</span>
+          <span class="skill-tag">Contrôle qualité</span>
+          <span class="skill-tag">Détection d'anomalies</span>
+          <span class="skill-tag">Fiabilité (Weibull)</span>
         </div>
       </div>
-
+      <div class="skill-card reveal">
+        <div class="skill-icon">🤖</div>
+        <div class="skill-cat">Machine Learning</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Random Forest</span>
+          <span class="skill-tag">LASSO · Elastic Net</span>
+          <span class="skill-tag">PCA · PLS</span>
+          <span class="skill-tag">CNN · LSTM</span>
+        </div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">🛠️</div>
+        <div class="skill-cat">Librairies &amp; outils</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Pandas</span>
+          <span class="skill-tag">NumPy</span>
+          <span class="skill-tag">Scikit-learn</span>
+          <span class="skill-tag">Git · GitLab</span>
+          <span class="skill-tag">Jupyter</span>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -527,27 +568,30 @@
       <div class="section-tag">Contact</div>
       <h2 class="section-title">Travaillons ensemble</h2>
     </div>
-    <p class="contact-desc">Disponible en CDI Data Scientist / Data Analyst à partir de octobre 2026. N'hésitez pas à me contacter !</p>
+    <p class="contact-desc">Je suis disponible immédiatement pour un CDI de Data Analyst ou Data Scientist, partout en France. N'hésitez pas à me contacter.</p>
     <div class="contact-cards">
       <a href="mailto:narimanebenacer6@gmail.com" class="contact-card">
         <div class="contact-card-label">Courriel</div>
         <div class="contact-card-value">narimanebenacer6@gmail.com</div>
       </a>
-      <a href="tel:0744827320" class="contact-card">
+      <a href="tel:+33744827320" class="contact-card">
         <div class="contact-card-label">Téléphone</div>
         <div class="contact-card-value">07 44 82 73 20</div>
       </a>
       <div class="contact-card">
         <div class="contact-card-label">Localisation</div>
-        <div class="contact-card-value">Nancy · Mobilité nationale</div>
+        <div class="contact-card-value">Île-de-France · Mobilité nationale</div>
       </div>
     </div>
-    <a href="mailto:narimanebenacer6@gmail.com" class="btn-primary">M'envoyer un message ✉️</a>
+    <div class="hero-btns">
+      <a href="mailto:narimanebenacer6@gmail.com" class="btn-primary">M'envoyer un message ✉️</a>
+      <a href="CV_Narimane_Benacer_Data_Analyst.pdf" class="btn-outline" download>Télécharger mon CV</a>
+    </div>
   </div>
 </section>
 
 <footer>
-  © 2026 Narimane Benacer · Data Scientist & Data Analyste
+  © 2026 Narimane Benacer · Data Analyst / Data Scientist
 </footer>
 
 <script>
